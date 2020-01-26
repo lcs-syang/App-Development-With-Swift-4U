@@ -7,7 +7,9 @@
 
  Create a dictionary `paces` of type [String: Double] and assign it a dictionary literal with "Easy", "Medium", and "Fast" keys corresponding to values of 10.0, 8.0, and 6.0. These numbers correspond to mile pace in minutes. Print the dictionary.
  */
-
+if let pace = paces["Medium"] {
+    print("I'll keep you at a \(pace) minute milepace")
+}
 
 /*:
  Add a new key/value pair to the dictionary. The key should be "Sprint" and the value should be 4.0. Print the dictionary.
